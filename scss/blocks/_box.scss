@@ -1,0 +1,15 @@
+.box {
+    @include flexBox;
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    overflow: /*scroll auto*/ hidden;
+    background-color: $bg-color;
+    @include heading (h2) ; 
+
+
+    .example {
+        @include flexBox ;
+        background-color: black;
+    }
+}

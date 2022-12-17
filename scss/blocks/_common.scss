@@ -1,0 +1,6 @@
+body {
+    @include flexBox;  
+}
+.container {
+        max-width: 1200px;
+    }

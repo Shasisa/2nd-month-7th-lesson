@@ -1,0 +1,25 @@
+@mixin flexBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin heading($heading) {
+    @if $heading == h2 {
+        font-size: 24px;
+        color: green;
+        background-color: black;
+    } @else if $heading == h3 {
+        font-size: 24px;
+        color: cornflowerblue;
+    } @else if $heading == h4 {
+        font-size: 20px;
+        color: rgb(7, 94, 255);
+    } @else if $heading == h5 {
+        font-size: 26px;
+        color: rgb(80, 139, 98);
+    } @else {
+        font-size: 18px;
+        color: rgb(145, 21, 58);
+    }
+}
